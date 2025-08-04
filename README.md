@@ -16,7 +16,7 @@ This tool automates the process of extracting hidden or undocumented endpoints f
 - [LinkFinder](https://github.com/GerbenJavado/LinkFinder)
 - `httpx` (optional for live testing)
 
-Install dependencies:
+## Install dependencies:
 ```bash
 pip install -r https://raw.githubusercontent.com/GerbenJavado/LinkFinder/master/requirements.txt
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
@@ -31,14 +31,14 @@ chmod +x extract-all-endpoints.sh
 🧾 Flags
 Flag	Description	Required
 -i	Input file containing JavaScript file URLs (one per line)	✅ Yes
--o	Output file where full mapped endpoints will be saved	✅ Yes
-📄 Example JS Input File (jsfiles.txt)
+-o	Output file where full mapped endpoints will be saved	✅ Yes```
 
-https://app.hubspot.com/assets/js/main.js
+## 📄 Example JS Input File (jsfiles.txt)
+
 https://www.target.com/scripts/lib.js
 https://cdn.example.com/js/app.bundle.js
 
-▶️ Example Command
+## ▶️ Example Command
 
 ./extract-all-endpoints.sh -i jsfiles.txt -o all_endpoints.txt
 
