@@ -21,19 +21,20 @@ Install dependencies:
 pip install -r https://raw.githubusercontent.com/GerbenJavado/LinkFinder/master/requirements.txt
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
-## 🚀 Usage
+
+🚀 Usage
 
 chmod +x extract-all-endpoints.sh
 
 ./extract-all-endpoints.sh -i <input_js_file> -o <output_file>
 
-## 🧾 Flags
+🧾 Flags
 Flag	Description	Required
 -i	Input file containing JavaScript file URLs (one per line)	✅ Yes
 -o	Output file where full mapped endpoints will be saved	✅ Yes
+📄 Example JS Input File (jsfiles.txt)
 
-## 📄 Example JS Input File (jsfiles.txt)
-
+https://app.hubspot.com/assets/js/main.js
 https://www.target.com/scripts/lib.js
 https://cdn.example.com/js/app.bundle.js
 
