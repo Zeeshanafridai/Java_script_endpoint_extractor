@@ -48,6 +48,9 @@ https://cdn.example.com/js/app.bundle.js
 This will:
 
 Run LinkFinder on each JavaScript URL
+
 Extract all endpoints (/api/..., /auth/..., http://...)
+
 Automatically map relative paths to full URLs
+
 Save results into all_endpoints.txt
