@@ -38,6 +38,7 @@ Flag	Description	Required
 ## 📄 Example JS Input File (jsfiles.txt)
 
 https://www.target.com/scripts/lib.js
+
 https://cdn.example.com/js/app.bundle.js
 
 ## ▶️ Example Command
@@ -46,10 +47,7 @@ https://cdn.example.com/js/app.bundle.js
 
 This will:
 
-    Run LinkFinder on each JavaScript URL
-
-    Extract all endpoints (/api/..., /auth/..., http://...)
-
-    Automatically map relative paths to full URLs
-
-    Save results into all_endpoints.txt
+Run LinkFinder on each JavaScript URL
+Extract all endpoints (/api/..., /auth/..., http://...)
+Automatically map relative paths to full URLs
+Save results into all_endpoints.txt
